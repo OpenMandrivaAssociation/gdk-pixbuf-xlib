@@ -28,7 +28,7 @@ Version:	2.40.2
 Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
-Url:		http://www.gtk.org
+Url:		https://www.gtk.org
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gdk-pixbuf-xlib/%(echo %{version} |cut -d. -f1-2)/%{pkgname}-%{version}.tar.xz
 BuildRequires:	meson
 BuildRequires:	gettext-devel
